@@ -10,6 +10,6 @@ You should NOT try to redefine any of the above variables.
 newID = 1000000000 + oldID;
 
 
-let randomNumber = math.random()*20;
-let randomInteger = math.floo(randomNumber);
+let randomNumber = Math.random()*20;
+let randomInteger = Math.floor(randomNumber);
 let randomUserID = 1000000000 + randomInteger;
