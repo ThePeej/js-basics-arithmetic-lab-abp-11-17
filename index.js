@@ -9,6 +9,7 @@ You should NOT try to redefine any of the above variables.
 // Write your code below this line!
 newID = 1000000000 + oldID;
 
+aveIsValid = Number.isInteger(currentAge);
 
 let randomNumber = Math.random()*20;
 let randomInteger = Math.floor(randomNumber);
